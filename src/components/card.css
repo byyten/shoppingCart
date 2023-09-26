@@ -1,0 +1,43 @@
+
+  
+div.card {
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    width: 12vw;
+    height: 36vh;
+
+    /* background-color: aliceblue;
+    color: #555353; */
+    padding: 0.75rem;
+}
+div.description {
+    min-height: 15vh;
+}
+p.description {
+    font-size: 0.75rem;
+}
+div.image {
+    min-height: 15vh;
+    max-height: 15vh;
+}
+img {
+    max-height: 15vh;
+    width: auto;
+}
+input {
+    width: 2rem;
+}
+div.horiz {
+    display: flex;
+    /* flex-basis: 1 1 0; */
+    justify-content:space-between ;
+}
+
+button {
+    background-color: green;
+    color:white;
+    border: none;
+
+}

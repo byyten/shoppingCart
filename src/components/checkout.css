@@ -1,0 +1,78 @@
+ul.purchases {
+    list-style: none;
+    max-width: 1024px;
+}
+
+div.listProduct {
+    display: flex;
+    min-width: 50vw;
+}
+
+button {
+    width: 5rem;
+    height: 2rem;
+}
+ 
+div.card {
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 12vw;
+    height: 36vh;
+
+    /* background-color: aliceblue;
+    color: #555353; */
+    padding: .75rem;
+}
+
+div.content { display: flex; justify-content: space-evenly;}
+div.description {
+    min-height: 15vh;
+}
+p.description {
+    font-size: 0.75rem;
+}
+div.image {
+    min-height: 5vh;
+    max-height: 5vh;
+    width: 10vw;
+}
+img.checkout {
+    max-height: 3rem;
+    width: auto;
+}
+input {
+    width: 2rem;
+}
+div.horiz {
+    display: flex;
+    justify-content:space-between ;
+    max-width: 20vw;
+    
+}
+div.discountPercent {
+    font-size: 0.75rem;
+}
+div.updown {
+    text-align: left;
+    width: 15vw;
+}
+/* button {
+    background-color: green;
+    color:white;
+    border: none;
+
+} */
+
+div.quantity, div.price, div.subtotal {
+    min-width: 3vw; 
+    /* margin: 1rem; */
+    text-align: right;
+
+}
+div.summation  {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
